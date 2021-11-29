@@ -1,0 +1,35 @@
+body{
+	padding: 0px;
+	marging: 0px;
+}
+
+.oneContainer img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+.twoContainer img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+
+.threeContainer img {
+  width: 33%;
+  height: auto;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+@media only screen and (max-width: 500px){
+ .threeContainer img{
+        width: 100%;
+    }
+}	
